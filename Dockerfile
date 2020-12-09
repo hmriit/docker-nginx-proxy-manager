@@ -8,7 +8,7 @@
 FROM jlesage/baseimage:alpine-3.12-v2.4.4
 
 # Docker image version is provided via build arg.
-ARG DOCKER_IMAGE_VERSION=unknown
+ARG DOCKER_IMAGE_VERSION=latest
 
 # Define software versions.
 ARG OPENRESTY_VERSION=1.17.8.1
